@@ -15,6 +15,13 @@ data:extend({
     },
     result = "lazorz"
   },
+  {
+    type = "recipe",
+    name = "power-armor-3-recipe",
+    enabled = false,
+    ingredients = {{ "effectivity-module-3", 10}, {"speed-module-3", 10}, {"processing-unit", 75}, {"steel-plate", 80}, {"alien-artifact", 100}},
+    result = "power-armor-mk3",
+  },
 -- tesla pistol
  {
     type = "recipe",

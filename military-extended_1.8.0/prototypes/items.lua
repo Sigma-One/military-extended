@@ -4,6 +4,10 @@ require("items.cooked_fish")
 require("items.gauss_coil")
 require("items.laser_axe")
 
+--armor items
+
+require("items.armor.power_armor_3")
+
 --ammunition items
 
 require("items.ammunition.auxiliary_tesla_coil")

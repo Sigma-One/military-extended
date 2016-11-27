@@ -296,6 +296,26 @@ data:extend({
         time = 35
       }
   },
+  {
+    type = "technology",
+    name = "power-armor-3-tech",
+    icon = "__base__/graphics/technology/power-armor-mk2.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "power-armor-3-recipe"
+      }
+    },
+    prerequisites = {"power-armor-2", "speed-module-3", "effectivity-module-3", "military-4"},
+    unit =
+    {
+      count = 150,
+      ingredients = {{"science-pack-1", 2}, {"science-pack-2", 2}, {"science-pack-3", 2}, {"alien-science-pack", 5}},
+      time = 36
+    },
+    order = "g-c-b"
+  },
 	{
       type = "technology",
       name = "laser-tech",
