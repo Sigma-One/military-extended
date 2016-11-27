@@ -4,6 +4,17 @@ require("items.cooked_fish")
 require("items.gauss_coil")
 require("items.laser_axe")
 
+--ammunition items
+
+require("items.ammunition.auxiliary_tesla_coil")
+require("items.ammunition.basic_arrow")
+require("items.ammunition.heavy_duty_bullets")
+require("items.ammunition.laser_battery")
+require("items.ammunition.poisonous_cannon_shell")
+require("items.ammunition.rock")
+require("items.ammunition.sharpened_log")
+require("items.ammunition.sulfuric_acid_shotgun_shell")
+
 --weapon items
 
 require("items.weapons.laser_rifle")

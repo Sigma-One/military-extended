@@ -1,5 +1,8 @@
 data:extend(
 {
+
+
+--electric fly swatter
   {
     type = "build-entity-achievement",
     name = "electric-fly-swat",
@@ -7,6 +10,9 @@ data:extend(
     to_build = "tesla-turret",
     icon = "__military-extended__/graphics/achievements/fly-swatter.png"
   },
+
+
+--storm of bullets
   {
     type = "kill-achievement",
     name = "heavy-bullet-storm",

@@ -1,4 +1,4 @@
-require("prototypes.damage-type")
+require("prototypes.damage-types")
 require("prototypes.entities")
 require("prototypes.items")
 require("prototypes.ammo-category")
