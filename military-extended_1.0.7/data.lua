@@ -1,0 +1,8 @@
+require("prototypes.damage-type")
+require("prototypes.entities")
+require("prototypes.items")
+require("prototypes.ammo-category")
+require("prototypes.ammo")
+require("prototypes.recipe")
+require("prototypes.tech")
+require("prototypes.achievements")

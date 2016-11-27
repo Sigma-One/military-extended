@@ -1,0 +1,10 @@
+{
+	"name":"military-extended",
+	"author":"Sigma1",
+	"version":"1.0.7",
+	"title":"Military Extended",
+	"homepage":"",
+	"description":"Adds more military research and weapons with custom-made graphics.",
+	"dependencies": ["base"],
+  "factorio_version": "0.14"
+}
