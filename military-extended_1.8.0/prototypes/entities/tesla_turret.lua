@@ -83,8 +83,8 @@ data:extend(
       type = "projectile",
       ammo_category = "electric",
       cooldown = 0.1,
-      range = 15,
-      damage_modifier = 0.5,
+      range = 17,
+      damage_modifier = 0.7,
       ammo_type =
 		  {
 		    category = "combat-robot-beam",
