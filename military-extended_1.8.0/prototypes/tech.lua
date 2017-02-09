@@ -315,7 +315,59 @@ data:extend({
       time = 36
     },
     order = "g-c-b"
+--Shock damage upgrades
+			
+  {
+    type = "technology",
+    name = "shock-damage-1",
+    icon = "__military-extended__/graphics/entities/icons/tesla-turret.png",
+    effects =
+    {
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-beam",
+        modifier = "0.2"
+      }
+    },
+    prerequisites = {"tesla-turret-tech"},
+    unit =
+    {
+      count = 100,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+      },
+      time = 45
+    },
+    upgrade = true,
+    order = "e-n-a"
   },
+  {
+    type = "technology",
+    name = "shock-damage-2",
+    icon = "__military-extended__/graphics/entities/icons/tesla-turret.png",
+    effects =
+    {
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-beam",
+        modifier = "0.2"
+      }
+    },
+    prerequisites = {"shock-damage-1"},
+    unit =
+    {
+      count = 175,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+      },
+      time = 50
+    },
+    upgrade = true,
+    order = "e-n-a"
 	{
       type = "technology",
       name = "laser-tech",
