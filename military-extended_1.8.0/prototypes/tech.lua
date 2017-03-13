@@ -368,6 +368,33 @@ data:extend({
     },
     upgrade = true,
     order = "e-n-a"
+	},
+  {
+    type = "technology",
+    name = "shock-damage-3",
+    icon = "__military-extended__/graphics/entities/icons/tesla-turret.png",
+    effects =
+    {
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-beam",
+        modifier = "0.2"
+      }
+    },
+    prerequisites = {"shock-damage-2"},
+    unit =
+    {
+      count = 185,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 3},
+      },
+      time = 55
+    },
+    upgrade = true,
+    order = "e-n-a"
+	},
 	{
       type = "technology",
       name = "laser-tech",
